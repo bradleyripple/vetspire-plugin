@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Vetspire GraphQL",
+  "name_for_model": "vetspire_graphql",
+  "description_for_human": "Query Vetspire’s backend using GraphQL.",
+  "description_for_model": "Allows querying and mutating Vetspire backend data using GraphQL.",
+  "auth": {
+    "type": "user_http",
+    "authorization_type": "bearer"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://<YOUR_USERNAME>.github.io/vetspire-plugin/openapi.yaml"
+  },
+  "logo_url": "https://vetspire.com/assets/img/logo.svg",
+  "contact_email": "support@vetspire.com",
+  "legal_info_url": "https://vetspire.com/terms"
+}
