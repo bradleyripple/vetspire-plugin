@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Vetspire GraphQL API",
+  "name_for_model": "vetspire",
+  "description_for_human": "Access the full Vetspire backend via any GraphQL query or mutation at /graphql.",
+  "description_for_model": "Use this plugin to execute GraphQL queries and mutations against the Vetspire API.",
+  "auth": {
+    "type": "service_http",
+    "authorization_type": "bearer"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://bradleyripple.github.io/vetspire-plugin/openapi.yaml",
+    "is_user_authenticated": true
+  },
+  "logo_url": "https://bradleyripple.github.io/vetspire-plugin/logo.png",
+  "contact_email": "bradley.ripple@vetspire.com"
+}
